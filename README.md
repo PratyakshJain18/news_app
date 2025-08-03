@@ -1,16 +1,33 @@
-# news_app
+# 📰 News App (Flutter + REST API)
 
-A new Flutter project.
+My first news app built using **Flutter** and a public **News API**.  
+Inspired by modern news apps and focused on clean UI, API integration, and real-time data fetching.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🌐 Fetches latest news headlines from News API
+- 📄 Clean and minimal UI
+- 🧭 Category-based news navigation
+- 🖼️ Article thumbnails with titles
+- 🔗 Tap to open full articles in browser
+- 🕒 ISO 8601 date parsing and formatting using `intl`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** — Frontend framework
+- **HTTP** — REST API integration
+- **Intl** — Date formatting
+- **GetX** — Routing and simple state management
+- **NewsAPI.org** — News data provider
+- **url_launcher** — To open article links in browser
+
+---
+
+## 👨‍💻 Author
+
+**Pratyaksh Jain**  
+_Pre-1st year, NIT Allahabad_
