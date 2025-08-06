@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:news_app/Controller/home_controller.dart';
 import 'package:news_app/View/news_info.dart';
 import 'package:news_app/Model/news_model.dart';
+import 'package:shimmer/shimmer.dart';
 class HomeView extends GetView<HomeController> {
   const HomeView({super.key});
 

@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/Controller/home_controller.dart';
 import 'package:news_app/Model/news_model.dart';
-import 'package:intl/intl.dart';
+
 
 class NewsInfo extends GetView {
   NewsInfo({super.key, required this.article});
@@ -29,13 +29,6 @@ class NewsInfo extends GetView {
                 fit: BoxFit.cover,
               ),
             ),
-            // Padding(
-            //   padding: const EdgeInsets.all(8.0),
-            //   child: Text(
-            //     article.title,
-            //     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-            //   ),
-            // ),
             Text("Author: ${article.author}"),
             Text(
               "Date Of Publishing: ${controller.formattedDate(article.date)}",
@@ -50,7 +43,7 @@ class NewsInfo extends GetView {
             ),
             SizedBox(height: 50,),
             InkWell(
-              onTap: (){controller.launchArticle(article.url);},
+              onTap: (){controller.webLauncher(article.url);},
               child: Container(
                 decoration: BoxDecoration(
                   color: Color(0xFF607D8B),
