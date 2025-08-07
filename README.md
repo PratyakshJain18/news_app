@@ -18,12 +18,18 @@ Inspired by modern news apps and focused on clean UI, API integration, and real-
 
 ## 🛠️ Tech Stack
 
-- **Flutter** — Frontend framework
-- **HTTP** — REST API integration
-- **Intl** — Date formatting
-- **GetX** — Routing and simple state management
-- **NewsAPI.org** — News data provider
-- **url_launcher** — To open article links in browser
+- **Flutter** — Frontend framework  
+- **HTTP** — REST API integration  
+- **Intl** — Date formatting  
+- **GetX** — Routing and simple state management  
+- **NewsAPI.org** — News data provider  
+- ~~**url_launcher** — To open article links in browser~~  
+- **webview_flutter** — Used to open article links inside the app (replaced `url_launcher` for a better UX)
+
+### 🔄 Update Note
+
+Originally, article links were opened using `url_launcher`, which launched them in an external browser.  
+This was later replaced with `webview_flutter` to allow users to view articles directly inside the app for a more seamless experience.
 
 ---
 
